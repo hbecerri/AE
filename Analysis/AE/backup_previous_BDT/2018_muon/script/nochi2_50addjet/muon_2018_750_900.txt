@@ -1,0 +1,57 @@
+1 imax
+* jmax
+* kmax
+----------------
+shapes data_obs  *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/2018_muon/script/nochi2_50addjet/Input_undfolding_data_all.root $PROCESS
+shapes *         *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/2018_muon/script/nochi2_50addjet/Input_undfolding_data_all.root $PROCESS_nominal $PROCESS_$SYSTEMATIC
+----------------
+bin muon_2018_750_900
+observation -1
+----------------
+bin muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 muon_2018_750_900 
+process TTToSemiLeptonic_1 TTToSemiLeptonic_2 diboson dyjetstoll_m-50_ht qcd_ht st ttto2l2nu tttohadronic tttosemileptonic_outfiducial wjetstolnu 
+process -1 0 1 2 3 4 5 6 7 8 
+rate -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+----------------
+luminosity_2018 lnN 1.015 1.015 1.015 1.015 1.015 1.015 1.015 1.015 1.015 1.015 
+luminosity_1718 lnN 1.002 1.002 1.002 1.002 1.002 1.002 1.002 1.002 1.002 1.002 
+luminosity_161718 lnN 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 
+dR_muon_18 lnN 1.05 1.05 1.05 1.05 1.05 1.05 1.05 1.05 1.05 1.05 
+xsec_diboson lnN - - 1.15 - - - - - - - 
+xsec_dyjetstoll_m-50_ht lnN - - - 1.15 - - - - - - 
+xsec_qcd_ht lnN - - - - 1.15 - - - - - 
+xsec_st lnN - - - - - 1.10 - - - - 
+xsec_ttto2l2nu lnN - - - - - - 1.05 - - - 
+xsec_tttohadronic lnN - - - - - - - 1.05 - - 
+xsec_tttosemileptonic_outfiducial lnN - - - - - - - - 1.15 - 
+xsec_wjetstolnu lnN - - - - - - - - - 1.10 
+xsec_ttbar lnN 1.05 1.05 - - - - - - - - -
+---------------------------------------------------
+#hdamp shape 1 1 - - - - - - - - 
+#pileup shape 1 1 1 1 1 1 1 1 1 1 
+#muISO shape 1 1 1 1 1 1 1 1 1 1 
+#muID shape 1 1 1 1 1 1 1 1 1 1 
+#muHLT shape 1 1 1 1 1 1 1 1 1 1 
+#toptag_corr shape 1 1 1 1 1 1 1 1 1 1 
+#toptag_uncorr shape 1 1 1 1 1 1 1 1 1 1 
+#FSR shape 1 1 1 1 1 1 1 1 1 1 
+#ISR shape 1 1 1 1 1 1 1 1 1 1 
+#MuR shape 1 1 1 1 1 1 1 1 1 1 
+#MuF shape 1 1 1 1 1 1 1 1 1 1 
+#MuR_MuF shape 1 1 1 1 1 1 1 1 1 1 
+#btag_HF_corr shape 1 1 1 1 1 1 1 1 1 1 
+#btag_LF_corr shape 1 1 1 1 1 1 1 1 1 1 
+#btag_HF_unc18 shape 1 1 1 1 1 1 1 1 1 1 
+#btag_LF_unc18 shape 1 1 1 1 1 1 1 1 1 1 
+#BBEC1_2018 shape - - - - - - - - - - 
+#EC2_2018 shape - - - - - - - - - - 
+#RelativeSample_2018 shape - - - - - - - - - - 
+#Absolute_2018 shape - - - - - - - - - - 
+#HF shape - - - - - - - - - - 
+EC2 shape - - - - - - - - - - 
+Absolute shape - - - - - - - - - - 
+RelativeBal shape - - - - - - - - - - 
+JER shape - - - - - - - - - - 
+PDF1 shape 1 1 - - - - - - - - 
+PDF2 shape - - - - - - - - - - 
+* autoMCStats 1 1

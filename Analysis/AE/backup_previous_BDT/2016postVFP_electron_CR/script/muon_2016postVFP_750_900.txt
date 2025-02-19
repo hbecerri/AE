@@ -1,0 +1,140 @@
+1 imax
+* jmax
+* kmax
+----------------
+shapes data_obs  *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/2016postVFP_electron/script/Input_undfolding_data_.root $PROCESS
+shapes *         *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/2016postVFP_electron/script/Input_undfolding_data_.root $PROCESS_nominal $PROCESS_$SYSTEMATIC
+----------------
+bin muon_2016postVFP_750_900
+observation -1
+----------------
+bin muon_2016postVFP_750_900 muon_2016postVFP_750_900 muon_2016postVFP_750_900 muon_2016postVFP_750_900 muon_2016postVFP_750_900 muon_2016postVFP_750_900 muon_2016postVFP_750_900 
+process TTToSemiLeptonic_1 TTToSemiLeptonic_2 wjetstolnu st dyjetstoll_m-50_ht qcd_ht diboson 
+process -1 0 1 2 3 4 5 
+rate -1 -1 -1 -1 -1 -1 -1 
+----------------
+luminosity_2016 lnN 1.015 1.015 1.015 1.015 1.015 1.015 1.015 
+luminosity_1716 lnN 1.002 1.002 1.002 1.002 1.002 1.002 1.002 
+luminosity_161716 lnN 1.02 1.02 1.02 1.02 1.02 1.02 1.02 
+dR_muon_16 lnN 1.10 1.10 1.10 1.10 1.10 1.10 1.10 
+xsec_dyjetstoll_m-50_ht lnN - - - 1.30 - - - 
+xsec_qcd_ht lnN - - - - 1.30 - - 
+xsec_st lnN - - - - - 1.30 - 
+xsec_wjetstolnu lnN - - - - - - 1.30 
+---------------------------------------------------
+xsec_ttbar lnN 1.05 1.05 - - - - - - -
+top_pt_rew shape 1 1 - - - - - 
+pileup shape 1 1 1 1 1 1 1 
+eleID shape 1 1 1 1 1 1 1 
+eleHLT shape 1 1 1 1 1 1 1 
+toptag_corr shape 1 1 1 1 1 1 1 
+toptag_uncorr shape 1 1 1 1 1 1 1 
+FSR shape 1 1 1 1 1 1 1 
+ISR shape 1 1 1 1 1 1 1 
+MuR shape 1 1 1 1 1 1 1 
+MuF shape 1 1 1 1 1 1 1 
+MuR_MuF shape 1 1 1 1 1 1 1 
+btag_HF_corr shape 1 1 1 1 1 1 1 
+btag_LF_corr shape 1 1 1 1 1 1 1 
+btag_HF_unc16 shape 1 1 1 1 1 1 1 
+btag_LF_unc16 shape 1 1 1 1 1 1 1 
+PDF1 shape 1 1 - - - - - 
+PDF2 shape 1 1 - - - - - 
+PDF3 shape 1 1 - - - - - 
+PDF4 shape 1 1 - - - - - 
+PDF5 shape 1 1 - - - - - 
+PDF6 shape 1 1 - - - - - 
+PDF7 shape 1 1 - - - - - 
+PDF8 shape 1 1 - - - - - 
+PDF9 shape 1 1 - - - - - 
+PDF10 shape 1 1 - - - - - 
+PDF11 shape 1 1 - - - - - 
+PDF12 shape 1 1 - - - - - 
+PDF13 shape 1 1 - - - - - 
+PDF14 shape 1 1 - - - - - 
+PDF15 shape 1 1 - - - - - 
+PDF16 shape 1 1 - - - - - 
+PDF17 shape 1 1 - - - - - 
+PDF16 shape 1 1 - - - - - 
+PDF19 shape 1 1 - - - - - 
+PDF20 shape 1 1 - - - - - 
+PDF21 shape 1 1 - - - - - 
+PDF22 shape 1 1 - - - - - 
+PDF23 shape 1 1 - - - - - 
+PDF24 shape 1 1 - - - - - 
+PDF25 shape 1 1 - - - - - 
+PDF26 shape 1 1 - - - - - 
+PDF27 shape 1 1 - - - - - 
+PDF28 shape 1 1 - - - - - 
+PDF29 shape 1 1 - - - - - 
+PDF30 shape 1 1 - - - - - 
+PDF31 shape 1 1 - - - - - 
+PDF32 shape 1 1 - - - - - 
+PDF33 shape 1 1 - - - - - 
+PDF34 shape 1 1 - - - - - 
+PDF35 shape 1 1 - - - - - 
+PDF36 shape 1 1 - - - - - 
+PDF37 shape 1 1 - - - - - 
+PDF38 shape 1 1 - - - - - 
+PDF39 shape 1 1 - - - - - 
+PDF40 shape 1 1 - - - - - 
+PDF41 shape 1 1 - - - - - 
+PDF42 shape 1 1 - - - - - 
+PDF43 shape 1 1 - - - - - 
+PDF44 shape 1 1 - - - - - 
+PDF45 shape 1 1 - - - - - 
+PDF46 shape 1 1 - - - - - 
+PDF47 shape 1 1 - - - - - 
+PDF48 shape 1 1 - - - - - 
+PDF49 shape 1 1 - - - - - 
+PDF50 shape 1 1 - - - - - 
+PDF51 shape 1 1 - - - - - 
+PDF52 shape 1 1 - - - - - 
+PDF53 shape 1 1 - - - - - 
+PDF54 shape 1 1 - - - - - 
+PDF55 shape 1 1 - - - - - 
+PDF56 shape 1 1 - - - - - 
+PDF57 shape 1 1 - - - - - 
+PDF58 shape 1 1 - - - - - 
+PDF59 shape 1 1 - - - - - 
+PDF60 shape 1 1 - - - - - 
+PDF61 shape 1 1 - - - - - 
+PDF62 shape 1 1 - - - - - 
+PDF63 shape 1 1 - - - - - 
+PDF64 shape 1 1 - - - - - 
+PDF65 shape 1 1 - - - - - 
+PDF66 shape 1 1 - - - - - 
+PDF67 shape 1 1 - - - - - 
+PDF68 shape 1 1 - - - - - 
+PDF69 shape 1 1 - - - - - 
+PDF70 shape 1 1 - - - - - 
+PDF71 shape 1 1 - - - - - 
+PDF72 shape 1 1 - - - - - 
+PDF73 shape 1 1 - - - - - 
+PDF74 shape 1 1 - - - - - 
+PDF75 shape 1 1 - - - - - 
+PDF76 shape 1 1 - - - - - 
+PDF77 shape 1 1 - - - - - 
+PDF78 shape 1 1 - - - - - 
+PDF79 shape 1 1 - - - - - 
+PDF80 shape 1 1 - - - - - 
+PDF81 shape 1 1 - - - - - 
+PDF82 shape 1 1 - - - - - 
+PDF83 shape 1 1 - - - - - 
+PDF84 shape 1 1 - - - - - 
+PDF85 shape 1 1 - - - - - 
+PDF86 shape 1 1 - - - - - 
+PDF87 shape 1 1 - - - - - 
+PDF88 shape 1 1 - - - - - 
+PDF89 shape 1 1 - - - - - 
+PDF90 shape 1 1 - - - - - 
+PDF91 shape 1 1 - - - - - 
+PDF92 shape 1 1 - - - - - 
+PDF93 shape 1 1 - - - - - 
+PDF94 shape 1 1 - - - - - 
+PDF95 shape 1 1 - - - - - 
+PDF96 shape 1 1 - - - - - 
+PDF97 shape 1 1 - - - - - 
+PDF98 shape 1 1 - - - - - 
+PDF99 shape 1 1 - - - - - 
+* autoMCStats 1 1

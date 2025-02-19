@@ -1,0 +1,153 @@
+1 imax
+* jmax
+* kmax
+----------------
+shapes data_obs  *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AI/2017_muon/script/Input_undfolding_data.root $PROCESS
+shapes *         *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AI/2017_muon/script/Input_undfolding_data.root $PROCESS_nominal $PROCESS_$SYSTEMATIC
+----------------
+bin muon_2017_750_900
+observation -1
+----------------
+bin muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 muon_2017_750_900 
+process Ttbar_in_1 Ttbar_in_2 Ttbar_in_3 Ttbar_in_4 diboson dy qcd st ttbar_ll ttbar_had ttbar_out wjets 
+process -3 -2 -1 0 1 2 3 4 5 6 7 8 
+rate -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+----------------
+luminosity_2017 lnN 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 1.02 
+luminosity_1718 lnN 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 
+luminosity_161718 lnN 1.009 1.009 1.009 1.009 1.009 1.009 1.009 1.009 1.009 1.009 1.009 1.009 
+xsec_diboson lnN - - - - 1.30 - - - - - - - 
+xsec_dy lnN - - - - - 1.30 - - - - - - 
+xsec_qcd lnN - - - - - - 1.30 - - - - - 
+xsec_st lnN - - - - - - - 1.30 - - - - 
+xsec_ttbar_had lnN - - - - - - - - 1.30 - - - 
+xsec_ttbar_ll lnN - - - - - - - - - 1.30 - - 
+xsec_ttbar_out lnN - - - - - - - - - - 1.30 - 
+xsec_wjets lnN - - - - - - - - - - - 1.30 
+xsec_ttbar lnN 1.05 1.05 1.05 1.05 - - - - - - - - -
+---------------------------------------------------
+hdamp shape 1 1 1 1 - - - - - - 1 - 
+L1Prefiring17 shape - - - - - - - - - - - - 
+top_pt_rew shape 1 1 1 1 - - - - - - 1 - 
+pileup shape 1 1 1 1 1 1 1 1 1 1 1 1 
+muISO shape 1 1 1 1 1 1 1 1 1 1 1 1 
+muID shape 1 1 1 1 1 1 1 1 1 1 1 1 
+muHLT shape 1 1 1 1 1 1 1 1 1 1 1 1 
+toptag_corr shape 1 1 1 1 1 1 1 1 1 1 1 1 
+toptag_uncorr shape 1 1 1 1 1 1 1 1 1 1 1 1 
+FSR shape 1 1 1 1 1 1 1 1 1 1 1 1 
+ISR shape 1 1 1 1 1 1 1 1 1 1 1 1 
+MuR shape 1 1 1 1 1 1 1 1 1 1 1 1 
+MuF shape 1 1 1 1 1 1 1 1 1 1 1 1 
+btag_HF_corr shape 1 1 1 1 1 1 1 1 1 1 1 1 
+btag_LF_corr shape 1 1 1 1 1 1 1 1 1 1 1 1 
+btag_HF_unc17 shape - - - - - - - - - - - - 
+btag_LF_unc17 shape - - - - - - - - - - - - 
+BBEC1_2017 shape - - - - - - - - - - - - 
+EC2_2017 shape - - - - - - - - - - - - 
+RelativeSample_2017 shape - - - - - - - - - - - - 
+Absolute_2017 shape - - - - - - - - - - - - 
+HF shape - - - - - - - - - - - - 
+EC2 shape - - - - - - - - - - - - 
+Absolute shape - - - - - - - - - - - - 
+RelativeBal shape - - - - - - - - - - - - 
+LHEPdfWeight_1 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_2 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_3 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_4 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_5 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_6 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_7 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_8 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_9 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_10 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_11 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_12 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_13 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_14 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_15 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_16 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_17 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_16 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_19 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_20 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_21 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_22 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_23 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_24 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_25 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_26 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_27 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_28 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_29 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_30 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_31 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_32 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_33 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_34 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_35 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_36 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_37 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_38 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_39 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_40 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_41 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_42 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_43 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_44 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_45 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_46 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_47 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_48 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_49 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_50 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_51 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_52 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_53 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_54 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_55 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_56 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_57 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_58 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_59 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_60 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_61 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_62 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_63 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_64 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_65 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_66 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_67 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_68 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_69 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_70 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_71 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_72 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_73 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_74 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_75 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_76 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_77 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_78 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_79 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_80 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_81 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_82 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_83 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_84 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_85 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_86 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_87 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_88 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_89 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_90 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_91 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_92 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_93 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_94 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_95 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_96 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_97 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_98 shape 1 1 1 1 - - - - - - - - 
+LHEPdfWeight_99 shape 1 1 1 1 - - - - - - - - 
+* autoMCStats 1 1

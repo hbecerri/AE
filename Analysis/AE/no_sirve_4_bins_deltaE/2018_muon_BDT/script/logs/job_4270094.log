@@ -1,0 +1,43 @@
+000 (4270094.000.000) 2024-09-22 16:02:26 Job submitted from host: <131.169.223.41:9618?addrs=131.169.223.41-9618+[2001-638-700-10df--1-29]-9618&alias=bird-htc-sched21.desy.de&noUDP&sock=schedd_3603117_2564>
+...
+040 (4270094.000.000) 2024-09-22 16:02:53 Started transferring input files
+	Transferring to host: <131.169.77.219:40575?addrs=131.169.77.219-40575+[2001-638-700-104c--1-1db]-40575&alias=bird773.desy.de>
+...
+040 (4270094.000.000) 2024-09-22 16:02:53 Finished transferring input files
+...
+001 (4270094.000.000) 2024-09-22 16:02:54 Job executing on host: <131.169.77.219:36831?addrs=131.169.77.219-36831+[2001-638-700-104c--1-1db]-36831&alias=bird773.desy.de>
+	SlotName: slot2_9@bird773.desy.de
+	CondorScratchDir = "/var/lib/condor/execute/dir_1486709"
+	Cpus = 1
+	Disk = 20481024
+	GPUs = 0
+	Memory = 1536
+...
+006 (4270094.000.000) 2024-09-22 16:03:01 Image size of job updated: 76156
+	61  -  MemoryUsage of job (MB)
+	62392  -  ResidentSetSize of job (KB)
+...
+040 (4270094.000.000) 2024-09-22 16:03:01 Started transferring output files
+...
+040 (4270094.000.000) 2024-09-22 16:03:01 Finished transferring output files
+...
+005 (4270094.000.000) 2024-09-22 16:03:01 Job terminated.
+	(1) Normal termination (return value 127)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	86  -  Run Bytes Sent By Job
+	338  -  Run Bytes Received By Job
+	86  -  Total Bytes Sent By Job
+	338  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       22 20480000  20481024 
+	   GPUs                 :                           0 
+	   Memory (MB)          :       61     1536      1536 
+	   TimeExecute (s)      :        7                    
+	   TimeSlotBusy (s)     :        9                    
+
+	Job terminated of its own accord at 2024-09-22T14:03:01Z with exit-code 127.
+...

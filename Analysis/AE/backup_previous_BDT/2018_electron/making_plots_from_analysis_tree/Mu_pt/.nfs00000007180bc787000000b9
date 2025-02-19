@@ -1,0 +1,4 @@
+#!/bin/bash
+
+root -l -b -q 'all_unfolding_data.C(25,55,550)'
+

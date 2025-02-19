@@ -1,0 +1,47 @@
+000 (4243771.000.000) 2024-09-22 11:45:23 Job submitted from host: <131.169.223.41:9618?addrs=131.169.223.41-9618+[2001-638-700-10df--1-29]-9618&alias=bird-htc-sched21.desy.de&noUDP&sock=schedd_3603117_2564>
+...
+040 (4243771.000.000) 2024-09-22 11:45:41 Started transferring input files
+	Transferring to host: <131.169.77.211:34929?addrs=131.169.77.211-34929+[2001-638-700-104c--1-1d3]-34929&alias=bird765.desy.de>
+...
+040 (4243771.000.000) 2024-09-22 11:45:41 Finished transferring input files
+...
+001 (4243771.000.000) 2024-09-22 11:45:42 Job executing on host: <131.169.77.211:33417?addrs=131.169.77.211-33417+[2001-638-700-104c--1-1d3]-33417&alias=bird765.desy.de>
+	SlotName: slot2_1@bird765.desy.de
+	CondorScratchDir = "/var/lib/condor/execute/dir_2241426"
+	Cpus = 1
+	Disk = 1537024
+	GPUs = 0
+	Memory = 2048
+...
+006 (4243771.000.000) 2024-09-22 11:45:51 Image size of job updated: 273492
+	268  -  MemoryUsage of job (MB)
+	273492  -  ResidentSetSize of job (KB)
+...
+006 (4243771.000.000) 2024-09-22 11:45:52 Image size of job updated: 303476
+	268  -  MemoryUsage of job (MB)
+	273748  -  ResidentSetSize of job (KB)
+...
+040 (4243771.000.000) 2024-09-22 11:45:52 Started transferring output files
+...
+040 (4243771.000.000) 2024-09-22 11:45:52 Finished transferring output files
+...
+005 (4243771.000.000) 2024-09-22 11:45:52 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	407  -  Run Bytes Sent By Job
+	349  -  Run Bytes Received By Job
+	407  -  Total Bytes Sent By Job
+	349  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       22  1536000   1537024 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      268     2048      2048 
+	   TimeExecute (s)      :       10                    
+	   TimeSlotBusy (s)     :       11                    
+
+	Job terminated of its own accord at 2024-09-22T09:45:52Z with exit-code 1.
+...

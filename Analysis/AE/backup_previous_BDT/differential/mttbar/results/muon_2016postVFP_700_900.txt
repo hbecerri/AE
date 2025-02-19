@@ -1,0 +1,44 @@
+1 imax
+* jmax
+* kmax
+----------------
+shapes data_obs  *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/mttbar/2016postVFP_muon/2016postVFP_muon_700_900/script/Input_undfolding_data_.root $PROCESS
+shapes *         *  /nfs/dust/cms/user/hugobg/UHH2_UL/CMSSW_10_6_28/src/UHH2/Analysis/AE/mttbar/2016postVFP_muon/2016postVFP_muon_700_900/script/Input_undfolding_data_.root $PROCESS_nominal $PROCESS_$SYSTEMATIC
+----------------
+bin muon_2016postVFP_700_900
+observation -1
+----------------
+bin muon_2016postVFP_700_900 muon_2016postVFP_700_900 muon_2016postVFP_700_900 muon_2016postVFP_700_900 muon_2016postVFP_700_900 muon_2016postVFP_700_900 muon_2016postVFP_700_900 
+process TTToSemiLeptonic_1 TTToSemiLeptonic_2 diboson dyjetstoll_m-50_ht qcd_ht st wjetstolnu 
+process -1 0 1 2 3 4 5 
+rate -1 -1 -1 -1 -1 -1 -1 
+----------------
+luminosity_2016 lnN 1.01 1.01 1.01 1.01 1.01 1.01 1.01 
+luminosity_161718 lnN 1.006 1.006 1.006 1.006 1.006 1.006 1.006 
+dR_muon_16 lnN 1.05 1.05 1.05 1.05 1.05 1.05 1.05 
+xsec_diboson lnN - - 1.30 - - - - 
+xsec_dyjetstoll_m-50_ht lnN - - - 1.30 - - - 
+xsec_qcd_ht lnN - - - - 1.30 - - 
+xsec_st lnN - - - - - 1.30 - 
+xsec_wjetstolnu lnN - - - - - - 1.30 
+xsec_ttbar lnN 1.05 1.05 - - - - - - -
+---------------------------------------------------
+hdamp shape 1 1 - - - - - 
+L1Prefiring16 shape 1 1 1 1 1 1 1 
+top_pt_rew shape 1 1 - - - - - 
+pileup shape 1 1 1 1 1 1 1 
+muISO shape 1 1 1 1 1 1 1 
+muID shape 1 1 1 1 1 1 1 
+muHLT shape 1 1 1 1 1 1 1 
+toptag_corr shape 1 1 1 1 1 1 1 
+toptag_uncorr shape 1 1 1 1 1 1 1 
+FSR shape 1 1 1 1 1 1 1 
+ISR shape 1 1 1 1 1 1 1 
+MuR shape 1 1 1 1 1 1 1 
+MuF shape 1 1 1 1 1 1 1 
+btag_HF_corr shape 1 1 1 1 1 1 1 
+btag_LF_corr shape 1 1 1 1 1 1 1 
+btag_HF_unc16 shape 1 1 1 1 1 1 1 
+btag_LF_unc16 shape 1 1 1 1 1 1 1 
+PDF1 shape 1 1 - - - - - 
+* autoMCStats 1 1

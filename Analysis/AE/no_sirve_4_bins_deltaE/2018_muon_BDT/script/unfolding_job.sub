@@ -1,0 +1,28 @@
+# unfolding_job.sub
+
++MySingularityImage="/cvmfs/unpacked.cern.ch/registry.hub.docker.com/cmssw/el7:x86_64"
+#+MySingularityArgs="--bind /tmp:/tmp"
+
+# Specify the name of your shell script
+executable = run_unfolding.sh
+
+# Log, output, and error files
+log = logs/job_$(Cluster).log
+output = logs/job_$(Cluster).out
+error = logs/job_$(Cluster).err
+
+# Request resources
+#request_cpus = 1
+#request_memory = 2 GB
+#request_disk = 3 GB
+
+# Environment setup (if needed)
+# environment = "PATH=/path/to/root/bin:$(PATH)"
+
+# File transfer options
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# Submit the job
+queue
+
